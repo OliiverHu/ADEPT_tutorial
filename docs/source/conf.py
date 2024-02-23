@@ -1,17 +1,18 @@
 # Configuration file for the Sphinx documentation builder.
 
-# -- Project information
+# -- Project information -----------------------------------------------------
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'ADEPT'
+copyright = '2023, Yunfei Hu'
+author = 'Yunfei Hu'
 
-release = '0.1'
-version = '0.1.0'
+# The full version, including alpha/beta/rc tags
+release = '1.0.0'
 
 # -- General configuration
 
 extensions = [
+    "nbsphinx",
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
@@ -33,3 +34,5 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+nbsphinx_allow_errors = True
