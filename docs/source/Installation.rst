@@ -20,7 +20,7 @@ Create conda environment and install MaskGraphene package.
 .. code-block:: python
 
    #create an environment called MG
-   conda create -n MG python=3.9
+   conda create -n ADEPT python=3.9
    
    #activate your environment
    conda activate MG
