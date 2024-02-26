@@ -37,4 +37,4 @@ To control and stabilize data quality, ADEPT relies on selection of differential
 
 Citation
 ========
-Y. Hu, et al. ADEPT: autoencoder with differentially expressed genes and imputation for a robust spatial transcriptomics clustering.
+Y. Hu, et al. ADEPT: autoencoder with differentially expressed genes and imputation for a robust spatial transcriptomics clustering. (iScience)
