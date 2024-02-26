@@ -57,6 +57,7 @@ Colab user can link to google drive and enter the folder through code below：
 In colab environment (with complete base env), you need to install libraries below:
 
 .. code-block:: python
+
    !pip install torch-geometric
    !pip install -r requirements.txt
    !pip install scanpy
@@ -74,6 +75,7 @@ In colab environment (with complete base env), you need to install libraries bel
 For possible error, please try:
 
 .. code-block:: python
+   
    """
       OSError: cannot load library 'C:\Program Files\R\R-4.3.1\bin\x64\R.dll':error 0x780
    """
